@@ -1,0 +1,63 @@
+
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="buildings">
+        <xsd:complexType>
+            <xsd:sequence maxOccurs="unbounded">
+                <xsd:element name="building">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="buildingCode">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string"> 
+										<xsd:pattern value="([A-Za-z])*">
+										</xsd:pattern>
+										<xsd:length value="3"> 
+										</xsd:length> 
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+                            <xsd:element name="buildingName" type="xsd:string"/>
+                            <xsd:element name="Position">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Latitude" type="xsd:decimal"/>
+                                        <xsd:element name="Logitude" type="xsd:decimal"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Address" minOccurs="0" maxOccurs="1">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="StreetNo" type="xsd:integer"/>
+                                        <xsd:element name="StrName" type="xsd:string"/>
+                                        <xsd:element name="City" type="xsd:string"/>
+                                        <xsd:element name="State">
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string"> 
+													<xsd:pattern value="([A-Z])*">
+													</xsd:pattern>
+													<xsd:length value="2"> 
+													</xsd:length> 
+												</xsd:restriction>
+											</xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="Zip">
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:integer"> 
+													<xsd:totalDigits value="5">
+													</xsd:totalDigits>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

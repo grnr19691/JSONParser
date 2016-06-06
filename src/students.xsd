@@ -1,0 +1,95 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    
+    <xs:element name="students">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SSN">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="[0-9][0-9][0-9]"/>
+										<xs:pattern value="\d{3}-\d{2}-\d{4}"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>	
+							<xs:element name="Name">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="([A-Za-z])*">
+										</xs:pattern>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="DOB" type="xs:date">
+							</xs:element>
+							<xs:element name="Gender">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="M"/>
+										<xs:enumeration value="F"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="Type">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="Both"/>
+										<xs:enumeration value="Master"/>
+										<xs:enumeration value="Phd"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="BuildingCode" maxOccurs="unbounded" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="KOH"/>
+										<xs:enumeration value="CFX"/>
+										<xs:enumeration value="JEP"/>
+										<xs:enumeration value="SHC"/>
+										<xs:enumeration value="LVY"/>
+										<xs:enumeration value="VKC"/>
+										<xs:enumeration value="WPH"/>
+										<xs:enumeration value="JHH"/>
+										<xs:enumeration value="REG"/>
+										<xs:enumeration value="STU"/>
+										<xs:enumeration value="BKS"/>
+										<xs:enumeration value="RTH"/>
+										<xs:enumeration value="SAL"/>
+										<xs:enumeration value="EEB"/>
+										<xs:enumeration value="OHE"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="Phone" maxOccurs="unbounded">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="[0-9][???][????]"/>
+										<xs:pattern value="\d{3}-\d{3}-\d{4}">
+										</xs:pattern>
+										<xs:minLength value="10"/>
+										<xs:maxLength value="14"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							
+						</xs:sequence>
+						
+					</xs:complexType>
+					<xs:key name="studentKey">
+						<xs:selector xpath="student"/>
+						<xs:field xpath="SSN"/>
+					</xs:key>
+				</xs:element>
+            </xs:sequence>
+			
+        </xs:complexType>
+    </xs:element>
+    
+        
+</xs:schema>
+    
+
+

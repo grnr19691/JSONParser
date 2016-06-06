@@ -1,0 +1,243 @@
+{"students": {
+    "student": [
+        {
+            "BuildingCode": [
+                "CFX",
+                "JEP"
+            ],
+            "DOB": "1968-04-01",
+            "Gender": "M",
+            "Name": "Rylan",
+            "Phone": [
+                "213-740-1111",
+                "213-740-1112"
+            ],
+            "SSN": "111-00-1111",
+            "Type": "Both"
+        },
+        {
+            "BuildingCode": [
+                "RTH",
+                "OHE"
+            ],
+            "DOB": "1970-04-01",
+            "Gender": "M",
+            "Name": "Joshua",
+            "Phone": "213-740-2222",
+            "SSN": "111-00-1111",
+            "Type": "Both"
+        },
+        {
+            "BuildingCode": "RTH",
+            "DOB": "1969-04-01",
+            "Gender": "F",
+            "Name": "Allen",
+            "Phone": "213-740-3333",
+            "SSN": "111-00-3333",
+            "Type": "Both"
+        },
+        {
+            "BuildingCode": [
+                "JHH",
+                "REG"
+            ],
+            "DOB": "1985-04-01",
+            "Gender": "M",
+            "Name": "Aidan",
+            "Phone": [
+                "213-740-4444",
+                "213-740-4445"
+            ],
+            "SSN": "111-00-4444",
+            "Type": "Both"
+        },
+        {
+            "BuildingCode": [
+                "LVY",
+                "VKC",
+                "WPH",
+                "KOH"
+            ],
+            "DOB": "1982-04-01",
+            "Gender": "M",
+            "Name": "Aiden",
+            "Phone": "213-740-5555",
+            "SSN": "111-00-5555",
+            "Type": "Both"
+        },
+        {
+            "DOB": "1979-04-01",
+            "Gender": "F",
+            "Name": "Barak",
+            "Phone": "213-740-6666",
+            "SSN": "111-00-6666",
+            "Type": "Master"
+        },
+        {
+            "BuildingCode": [
+                "LVY",
+                "VKC",
+                "WPH"
+            ],
+            "DOB": "1978-04-01",
+            "Gender": "M",
+            "Name": "Basil",
+            "Phone": "213-740-7777",
+            "SSN": "111-00-7777",
+            "Type": "Master"
+        },
+        {
+            "BuildingCode": [
+                "RTH",
+                "SAL",
+                "OHE"
+            ],
+            "DOB": "1975-04-01",
+            "Gender": "F",
+            "Name": "Cayden",
+            "Phone": [
+                "213-740-8888",
+                "213-740-8889"
+            ],
+            "SSN": "111-00-8888",
+            "Type": "Master"
+        },
+        {
+            "BuildingCode": [
+                "RTH",
+                "SAL"
+            ],
+            "DOB": "1972-04-01",
+            "Gender": "M",
+            "Name": "Brendon",
+            "Phone": "213-740-9999",
+            "SSN": "111-00-9999",
+            "Type": "Master"
+        },
+        {
+            "DOB": "1973-04-01",
+            "Gender": "M",
+            "Name": "Nate",
+            "Phone": "213-740-0000",
+            "SSN": "111-00-0000",
+            "Type": "Master"
+        },
+        {
+            "BuildingCode": [
+                "RTH",
+                "SAL",
+                "OHE"
+            ],
+            "DOB": "1965-04-01",
+            "Gender": "F",
+            "Name": "Hannah",
+            "Phone": "213-741-1111",
+            "SSN": "111-11-1111",
+            "Type": "Master"
+        },
+        {
+            "BuildingCode": [
+                "CFX",
+                "STU",
+                "BKS"
+            ],
+            "DOB": "1962-04-01",
+            "Gender": "F",
+            "Name": "Zoe",
+            "Phone": "213-741-2222",
+            "SSN": "111-11-2222",
+            "Type": "Master"
+        },
+        {
+            "DOB": "1963-04-01",
+            "Gender": "M",
+            "Name": "Alexis",
+            "Phone": "213-741-3333",
+            "SSN": "111-11-3333",
+            "Type": "Phd"
+        },
+        {
+            "BuildingCode": [
+                "KOH",
+                "CFX",
+                "SAL"
+            ],
+            "DOB": "1975-04-01",
+            "Gender": "F",
+            "Name": "Madison",
+            "Phone": "213-741-4444",
+            "SSN": "111-11-4444",
+            "Type": "Phd"
+        },
+        {
+            "BuildingCode": "CFX",
+            "DOB": "1976-04-01",
+            "Gender": "M",
+            "Name": "Adalgisa",
+            "Phone": "213-741-5555",
+            "SSN": "111-11-5555",
+            "Type": "Phd"
+        },
+        {
+            "BuildingCode": [
+                "CFX",
+                "KOH"
+            ],
+            "DOB": "1977-04-01",
+            "Gender": "M",
+            "Name": "Cora",
+            "Phone": [
+                "213-741-6666",
+                "213-741-6667"
+            ],
+            "SSN": "111-11-6666",
+            "Type": "Phd"
+        },
+        {
+            "DOB": "1982-04-01",
+            "Gender": "F",
+            "Name": "Adalia",
+            "Phone": "213-741-7777",
+            "SSN": "111-11-7777",
+            "Type": "Phd"
+        },
+        {
+            "BuildingCode": [
+                "RTH",
+                "OHE"
+            ],
+            "DOB": "1983-04-01",
+            "Gender": "F",
+            "Name": "Ava",
+            "Phone": [
+                "213-741-8888",
+                "213-741-8889"
+            ],
+            "SSN": "111-11-8888",
+            "Type": "Phd"
+        },
+        {
+            "BuildingCode": "RTH",
+            "DOB": "1986-04-01",
+            "Gender": "M",
+            "Name": "Celia",
+            "Phone": "213-741-9999",
+            "SSN": "111-11-9999",
+            "Type": "Phd"
+        },
+        {
+            "BuildingCode": [
+                "SAL",
+                "EEB"
+            ],
+            "DOB": "1983-04-01",
+            "Gender": "F",
+            "Name": "Zida",
+            "Phone": "213-741-0000",
+            "SSN": "111-11-0000",
+            "Type": "Phd"
+        }
+    ],
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xsi:noNamespaceSchemaLocation": "students.xsd"
+}}
